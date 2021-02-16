@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Challenge App</string>
+    <string name="app_name_official">Brastlewark</string>
+    <string name="search_by_name">Buscar por nombre</string>
+    <string name="empty"/>
+    <string name="weight">Peso</string>
+    <string name="height">Altura</string>
+    <string name="hair_color">Color de cabello</string>
+    <string name="friends">Amigos</string>
+    <string name="professions">Profesión</string>
+    <string name="age">Edad</string>
+</resources>

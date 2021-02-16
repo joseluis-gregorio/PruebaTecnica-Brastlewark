@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InhabitantsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button"
+        android:layout_margin="10dp">
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/search"
+            android:hint="@string/search_by_name"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:inputType="text"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ñÑ áéíóúÁÉÍÓÚ"
+            android:background="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_inhabitants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_inhabitant"
+        android:layout_margin="16dp"/>
+</LinearLayout>

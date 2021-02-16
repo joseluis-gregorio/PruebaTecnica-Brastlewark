@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3490dc</color>
+    <color name="colorPrimaryDark">#3490dc</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_splash">#3490dc</color>
+    <color name="whiteLoader">#B3FFFFFF</color>
+    <color name="fill_button">#B35A5555</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroundToolbar">#F0F0F0</color>
+</resources>
